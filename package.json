@@ -1,5 +1,15 @@
 {
   "dependencies": {
     "sass": "^1.62.1"
-  }
+  },
+  "name": "final-benavides",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "script-sass": "sass ./sass/main.scss ./css/main.css -w --no-source-map"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
