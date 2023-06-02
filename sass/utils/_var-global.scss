@@ -5,7 +5,8 @@
 }
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #eee;
+    background-color: #181818;
+    color: white;
 }
 
 a {
@@ -19,4 +20,9 @@ ul {
 
 p {
     line-height: 1.5;
+}
+
+hr {
+    color: #181818;
+    max-width: 1200px;
 }

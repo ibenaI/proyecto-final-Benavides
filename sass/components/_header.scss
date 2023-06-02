@@ -1,9 +1,10 @@
 .header {
     padding: 30px 20px;
-    background-color: #0f172a;
-    position: sticky;
-    top: 0;
-    z-index: 1;
+    background-color: #181818;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 10);
+    // position: sticky;
+    // top: 0;
+    // z-index: 1;
 
     &__container {
         max-width: 1200px;
@@ -21,7 +22,7 @@
                 a {
                     color: red;
                     &:hover {
-                        color: blue;
+                        color: gold;
                     }
                 }
             }
@@ -36,9 +37,10 @@
                 position: absolute;
                 left: 0;
                 top: 100px;
-                background-color: black;
+                background-color: #181818;
                 width: 100%;
                 display: none;
+                box-shadow: 0 0 30px 0 rgba(0, 0, 0, 10);
 
                 li {
                     padding: 10px 0;
@@ -46,6 +48,11 @@
 
                     a {
                         font-weight: bold;
+                        color: red;
+
+                        &:hover {
+                            color: gold;
+                        }
                     }
                 }
             }
