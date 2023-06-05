@@ -13,7 +13,7 @@
             font-size: 3em;
 
             span {
-                color: red;
+                color: $oxiRed;
             }
         }
         &-wrap {
@@ -37,9 +37,9 @@
                         width: 100%;
                         padding: .7em;
                         border: none;
-                        background-color: red;
+                        background-color: $oxiRed;
                         color: white;
-                        border-bottom: 1px solid red;
+                        border-bottom: 1px solid $oxiRed;
                         text-transform: uppercase;
                         padding: 1em;
                         cursor: pointer;
@@ -54,18 +54,18 @@
                         padding: .7em;
                         border: none;
                         outline: 0;
-                        color: red;
+                        color: $oxiRed;
                         background: none;
-                        border-bottom: 1px solid red;
+                        border-bottom: 1px solid $oxiRed;
                     }
                     textarea {
                         width: 100%;
                         padding: .7em;
                         border: none;
                         outline: 0;
-                        color: red;
+                        color: $oxiRed;
                         background: none;
-                        border-bottom: 1px solid red;
+                        border-bottom: 1px solid $oxiRed;
                     }
                 }
             }
@@ -73,7 +73,7 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $bpMedium) {
     .contacto__container {
         max-width: 1100px;
         padding: 50px;

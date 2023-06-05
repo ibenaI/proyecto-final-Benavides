@@ -4,8 +4,6 @@
   box-shadow: 0 0 30px 0 rgb(0, 0, 0);
 }
 .header__container {
-  max-width: 1100px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -88,7 +86,7 @@ hr {
   max-width: 1200px;
 }
 
-.content, .heroab__content, .contacto__container, .heroc__content, .hero__content {
+.content, .heroab__content, .contacto__container, .heroc__content, .hero__content, .header__container {
   max-width: 1200px;
   margin: 0 auto;
 }
