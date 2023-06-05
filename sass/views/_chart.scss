@@ -1,0 +1,42 @@
+.heroc {
+    padding: 20px;
+
+    &__content {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 20px;
+        justify-content: center;
+        // align-items: center;
+        // box-shadow:  0 0 30px 0 rgba(0, 0, 0, 10);
+
+        &-img1 {
+            padding: 1px;
+            box-shadow:  0 0 30px 0 rgba(0, 0, 0, 10);
+            overflow: hidden;
+        }
+        &-img2 {
+            margin: 0 auto;
+            height: fit-content;
+            width: fit-content;
+            display: flex;
+            justify-content: center;            //la img esta cambiar por una larga en vez de alta (como para que quede un menu abajo de la otra)
+            padding: 1px;
+            box-shadow:  0 0 30px 0 rgba(0, 0, 0, 10);
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .heroc {
+
+        &__content {
+
+            &-img1 {
+                overflow: unset;
+            }
+        }
+    }
+}
