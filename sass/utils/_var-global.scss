@@ -26,3 +26,16 @@ hr {
     color: #181818;
     max-width: 1200px;
 }
+
+// variables 
+
+//breakpoints
+$bpSmall: 576px;
+$bpMedium: 768px;
+$bpLarge: 992px;
+
+//extend
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
