@@ -1,3 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #181818;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  line-height: 1.5;
+}
+
+hr {
+  color: #181818;
+  max-width: 1200px;
+}
+
+.content, .heroab__content, .contacto__container, .heroc__content, .hero__content, .header__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .header {
   padding: 30px 20px;
   background-color: #181818;
@@ -56,41 +91,6 @@
     display: none;
   }
 }
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: #181818;
-  color: white;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-ul {
-  list-style-type: none;
-}
-
-p {
-  line-height: 1.5;
-}
-
-hr {
-  color: #181818;
-  max-width: 1200px;
-}
-
-.content, .heroab__content, .contacto__container, .heroc__content, .hero__content, .header__container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .hero {
   padding: 20px;
 }

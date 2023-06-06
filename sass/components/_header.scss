@@ -1,6 +1,6 @@
 .header {
     padding: 30px 20px;
-    background-color: #181818;
+    background-color: $oxiBG;
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 10);
     // position: sticky;
     // top: 0;
@@ -21,9 +21,9 @@
                 margin: 0 15px;
 
                 a {
-                    color: red;
+                    color: $oxiRed;
                     &:hover {
-                        color: gold;
+                        color: $oxiGold;
                     }
                 }
             }
@@ -49,10 +49,10 @@
 
                     a {
                         font-weight: bold;
-                        color: red;
+                        color: $oxiRed;
 
                         &:hover {
-                            color: gold;
+                            color:$oxiGold;
                         }
                     }
                 }
@@ -65,7 +65,7 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $bpMedium) {
 .header__container-navbar {
     display: flex;
 }
